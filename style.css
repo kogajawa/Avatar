@@ -91,3 +91,53 @@ ul a:hover{
     border-color: white;
     color: white;
 }
+@media (max-width:650px){
+    .logo{
+        font-size: 15px;
+        margin: 2px;
+    }
+    header{
+        margin-top: 30px;
+        padding: 2px;
+        
+    }
+    header ul li {
+        padding: 4px;
+        
+    }
+    header ul {
+        margin-left: 5px;
+        margin-right: 40px;
+        
+    }
+    header ul li a{
+        font-size: 14px;
+    }
+    .content{
+        color: white;
+        width: 50%;
+        margin-top: 30px;
+        padding:20px ;
+    }
+    .content h2{
+        text-transform: uppercase;
+        font-size: 30px;
+        
+    }
+    .content p{
+        letter-spacing: 2px;
+        width: 250px;
+        padding:10px 0;
+        font-size: 14px;
+
+    }
+    .content button{
+        padding: 4px 5px;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .contener{
+        width: 90%;
+        height: 600px;
+    }
+}
